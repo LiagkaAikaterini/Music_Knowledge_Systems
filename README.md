@@ -18,6 +18,12 @@ The goal of this project is to create a music ontology that structures and forma
 - Using RDF/OWL standards to model the domain, making it easy to query and integrate with other knowledge bases.
 - The ontology allows better data sharing, retrieval, and integration across different music platforms, improving search engines, recommendation engines, and AI systems.
 
+## Project Structure
+Each of these projects includes the following components:
+- The `.ipynb` file with the Implementation Code
+- A `datafiles` folder which contains all the input files that were provided in the project description.
+- A `output` folder that contains all the output files generated during the execution of the code.
+
 ## Our Team
 Full Name| Github
 | :---: | :---:
