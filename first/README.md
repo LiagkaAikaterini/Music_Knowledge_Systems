@@ -53,19 +53,19 @@ In the final section, we demonstrate how the knowledge graph is integrated with 
 #### Recommenders
 We created 3 distinct recommenders, each with unique criteria for suggesting songs based on user preferences.
 
-**1.** _First Recommender_:
+**1. _First Recommender_:**
 - Suggests songs based on shared characteristics with a given song, such as:
 - Same composer or language of the composer.
 - Common genres among award-winning composers.
 - Similar duration (within a 100-unit difference).
 - Same publisher.
 
-**2.** _Second Recommender_:
+**2. _Second Recommender_:**
 - Recommends songs that share at least one genre and have composers born within 10 years of each other.
 - Suggests songs with the same composer, at least two shared emotions, and a common instrument.
 - Matches songs based on the same musical movement as the composer.
 
-**3.** _Third Recommender_:
+**3. _Third Recommender_:**
 - Proposes songs with at least one genre in common and similar durations (within a 10-unit difference).
 - Identifies songs with at least two shared genres and one emotion.
 - Recommends songs with the same publisher released in the same decade.
