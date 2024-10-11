@@ -51,20 +51,21 @@ In the final section, we demonstrate how the knowledge graph is integrated with 
 - We highlight how the graph allows for deeper insights, making recommendations more accurate and tailored to individual users.
 
 #### Recommenders
-We **created three distinct recommenders**, each with unique criteria for suggesting songs based on user preferences.
-**1. First Recommender:**
+We created 3 distinct recommenders, each with unique criteria for suggesting songs based on user preferences.
+
+**1.** _First Recommender_:
 - Suggests songs based on shared characteristics with a given song, such as:
 - Same composer or language of the composer.
 - Common genres among award-winning composers.
 - Similar duration (within a 100-unit difference).
 - Same publisher.
 
-**2. Second Recommender:**
+**2.** _Second Recommender_:
 - Recommends songs that share at least one genre and have composers born within 10 years of each other.
 - Suggests songs with the same composer, at least two shared emotions, and a common instrument.
 - Matches songs based on the same musical movement as the composer.
 
-**3. Third Recommender:**
+**3.** _Third Recommender_:
 - Proposes songs with at least one genre in common and similar durations (within a 10-unit difference).
 - Identifies songs with at least two shared genres and one emotion.
 - Recommends songs with the same publisher released in the same decade.
@@ -73,8 +74,8 @@ We **created three distinct recommenders**, each with unique criteria for sugges
 #### Evaluation Metrics
 To evaluate the performance of these recommenders, precision and recall metrics are calculated using user preferences from the provided `users.txt` and `new_users.txt` files. The metrics are defined as follows:
 
-- **Precision:** The ratio of true positive recommendations to the total predicted recommendations.
-- **Recall:** The ratio of true positive recommendations to the total number of actual liked songs by the user.
+- **_Precision:_** The ratio of true positive recommendations to the total predicted recommendations.
+- **_Recall:_** The ratio of true positive recommendations to the total number of actual liked songs by the user.
 
 ## Conclusions
 Together, these three parts outline the entire process—from constructing the knowledge graph and querying it for specific information to using it to power a personalized music recommender system.
