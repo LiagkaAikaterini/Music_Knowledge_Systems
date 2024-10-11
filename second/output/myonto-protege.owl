@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="/content/drive/MyDrive/10o_εξάμηνο/Γνώση/2o_μέρος_εργαστηρίου /myonto-protege.nt"
+         xmlns="/content/drive/MyDrive/10o_εξάμηνο/Γνώση/2o_μέρος_εργαστηρίου /myonto-protege.nt#">
+
+<owl:Ontology rdf:about="/content/drive/MyDrive/10o_εξάμηνο/Γνώση/2o_μέρος_εργαστηρίου /myonto-protege.nt"/>
+
+<owl:ObjectProperty rdf:about="http://example.org/props/hasGenre"/>
+
+<owl:ObjectProperty rdf:about="http://example.org/props/hasEmotion"/>
+
+<owl:ObjectProperty rdf:about="http://example.org/props/hasComposer"/>
+
+<owl:ObjectProperty rdf:about="http://example.org/props/hasPublisher"/>
+
+<owl:ObjectProperty rdf:about="http://example.org/props/createdAt"/>
+
+<owl:ObjectProperty rdf:about="http://example.org/props/language"/>
+
+<owl:ObjectProperty rdf:about="http://example.org/props/followsMovement"/>
+
+<owl:ObjectProperty rdf:about="http://example.org/props/hasIntrument"/>
+
+<owl:DatatypeProperty rdf:about="http://example.org/props/hasTitle"/>
+
+<owl:DatatypeProperty rdf:about="http://example.org/props/createdIn"/>
+
+<owl:DatatypeProperty rdf:about="http://example.org/props/hasDuration"/>
+
+<owl:DatatypeProperty rdf:about="http://example.org/props/hasMusicAwards"/>
+
+<owl:DatatypeProperty rdf:about="http://example.org/props/wasBornIn"/>
+
+<owl:DatatypeProperty rdf:about="http://example.org/props/Biography"/>
+
+<owl:DatatypeProperty rdf:about="http://example.org/props/diedIn"/>
+
+<owl:Class rdf:about="http://example.org/ns/Genre">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://example.org/ns/Song">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://example.org/ns/Emotion">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://example.org/ns/Composer">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://example.org/ns/Publisher">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://example.org/ns/Place">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://example.org/ns/Language">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://example.org/ns/Movement">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://example.org/ns/Instrument">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://example.org/ns/FunkSong">
+  <rdfs:subClassOf rdf:resource="http://example.org/ns/Song"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://example.org/ns/JazzSong">
+  <rdfs:subClassOf rdf:resource="http://example.org/ns/Song"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://example.org/ns/PopSong">
+  <rdfs:subClassOf rdf:resource="http://example.org/ns/Song"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://example.org/ns/ReggaeSong">
+  <rdfs:subClassOf rdf:resource="http://example.org/ns/Song"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://example.org/ns/ClassicalSong">
+  <rdfs:subClassOf rdf:resource="http://example.org/ns/Song"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://example.org/ns/InstrumentalSong">
+  <rdfs:subClassOf rdf:resource="http://example.org/ns/Song"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://example.org/ns/CountrySong">
+  <rdfs:subClassOf rdf:resource="http://example.org/ns/Song"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://example.org/ns/TraditionalFolkSong">
+  <rdfs:subClassOf rdf:resource="http://example.org/ns/Song"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://example.org/ns/HipHopSong">
+  <rdfs:subClassOf rdf:resource="http://example.org/ns/Song"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://example.org/ns/RockSong">
+  <rdfs:subClassOf rdf:resource="http://example.org/ns/Song"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://example.org/ns/OperaSong">
+  <rdfs:subClassOf rdf:resource="http://example.org/ns/Song"/>
+</owl:Class>
+
+
+</rdf:RDF>

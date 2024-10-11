@@ -1,0 +1,24 @@
+<http://example.org/ns/446_MIL0882053> <http://example.org/props/publisher> <http://example.org/ns/Sony_Music_Entertainment> .
+<http://example.org/ns/446_MIL0882053> <http://example.org/props/composer> <http://example.org/ns/Giuseppe_Verdi> .
+<http://example.org/ns/446_MIL0882053> <http://example.org/props/year> "2010"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/ns/446_MIL0882053> <http://example.org/props/title> "Messa_da_requiem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/ns/446_MIL0882053> <http://example.org/props/duration> "30073"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<http://example.org/ns/496_MIL0873549> <http://example.org/props/publisher> <http://example.org/ns/Warner_Music> .
+<http://example.org/ns/496_MIL0873549> <http://example.org/props/composer> <http://example.org/ns/Ludwig_van_Beethoven> .
+<http://example.org/ns/496_MIL0873549> <http://example.org/props/year> "2013"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/ns/496_MIL0873549> <http://example.org/props/title> "9:_Violin_Concerto_/_Beethoven_;_Carlo_Maria_Giulini_[direttore"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/ns/496_MIL0873549> <http://example.org/props/duration> "30073"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<http://example.org/ns/446_MIL0883143> <http://example.org/props/publisher> <http://example.org/ns/Warner_Music> .
+<http://example.org/ns/446_MIL0883143> <http://example.org/props/composer> <http://example.org/ns/Antonio_Vivaldi> .
+<http://example.org/ns/446_MIL0883143> <http://example.org/props/year> "2011"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/ns/446_MIL0883143> <http://example.org/props/title> "The_Vivaldi_experience"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/ns/446_MIL0883143> <http://example.org/props/duration> "30073"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+
+<http://example.org/ns/496_UBO3950811> <http://example.org/props/publisher> <http://example.org/ns/Warner_Music> .
+<http://example.org/ns/496_UBO3950811> <http://example.org/props/composer> <http://example.org/ns/Nino_Rota> .
+<http://example.org/ns/496_UBO3950811> <http://example.org/props/year> "2012"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/ns/496_UBO3950811> <http://example.org/props/title> "Giulietta_degli_spiriti "^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/ns/496_UBO3950811> <http://example.org/props/duration> "30073"^^<http://www.w3.org/2001/XMLSchema#integer> .
