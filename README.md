@@ -22,7 +22,7 @@ The goal of this project is to create a music ontology that structures and forma
 Each of these projects includes the following components:
 - The `.ipynb` file with the Implementation Code
 - A `datafiles` folder which contains all the input files that were provided in the project description.
-- A `output` folder that contains all the output files generated during the execution of the code.
+- An `output` folder that contains all the output files generated during the execution of the code.
 
 ## Our Team
 Full Name| Github
